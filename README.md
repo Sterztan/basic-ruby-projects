@@ -1,5 +1,11 @@
-# Project 1: Caesar Cipher
+# Basic Ruby Projects
+This repository contains a collection of small Ruby projects from **The Odin Project**, each showcasing fundamental Ruby methods and programming concepts. The purpose of these projects is to practice and strengthen my understanding of Ruby through hands-on coding exercises.
+
+## Project 1: Caesar Cipher
 The Caesar cipher is a simple encryption technique that shifts each letter in a word or message by a fixed number of positions in the alphabet. This project demonstrates the use of Ruby’s #ord and #chr methods to convert characters to their ASCII values, apply the shift, and then convert them back to characters.
 
-# Project 2: Substrings
+## Project 2: Substrings
 This project defines a method that returns a hash of dictionary words found one or more times in a given string. It uses Ruby’s #scan method, which searches a string for matches to a given pattern and returns an array of all occurrences. The number of times each dictionary word appears is then counted and stored in the hash.
+
+## Project 3: Stock Picker
+This project implements a Ruby method that determines the best days to buy and sell a stock to maximize profit. The method takes an array of stock prices, where each element represents the price on a given day, and returns an array containing the indices (days) for the optimal buy and sell. Key skills included are tracking and updating variables while iterating through an array, recording both element values and their indices, and applying logic to compare and store the best possible result.
