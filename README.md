@@ -9,3 +9,6 @@ This project defines a method that returns a hash of dictionary words found one 
 
 ## Project 3: Stock Picker
 This project implements a Ruby method that determines the best days to buy and sell a stock to maximize profit. The method takes an array of stock prices, where each element represents the price on a given day, and returns an array containing the indices (days) for the optimal buy and sell. Key skills included are tracking and updating variables while iterating through an array, recording both element values and their indices, and applying logic to compare and store the best possible result.
+
+## Project 4: Bubble Sort
+Here we have a method that sorts an array through bubble sort, where each element is compared to the one next to it and they are swapped if the one on the left is larger than the one on the right. This continues until the array is eventually sorted in ascending order. In this project, I utilize the loop and break keywords to continously loop through an array until it is fully sorted. I also make use of the #times do loop, iterating through every number in an array to swap them in necessary.
