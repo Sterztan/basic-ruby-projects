@@ -1,5 +1,6 @@
-def stock_picker(prices)
+# frozen_string_literal: true
 
+def stock_picker(prices)
   # Setting variables
   min_price = prices[0]
   min_day = 0
@@ -8,7 +9,6 @@ def stock_picker(prices)
 
   # Iterating through each day/price
   prices.each_with_index do |price, day|
-  
     # Finds and updates the lowest price in the array and its index
     if price < min_price
       min_price = price
@@ -30,4 +30,4 @@ def stock_picker(prices)
   puts "Our array is #{best_days}"
 end
 
-stock_picker([17,3,6,9,15,8,6,1,10])
+stock_picker([17, 3, 6, 9, 15, 8, 6, 1, 10])

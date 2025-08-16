@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 def bubble_sort(array)
   n = array.length
   original = array.dup
@@ -6,13 +8,13 @@ def bubble_sort(array)
     swapped = false
 
     # Iterates through the array and swaps numbers if current is greater than next
-    (n-1).times do |i|
-      if array[i] > array[i + 1]
-        stored = array[i]
-        array[i] = array[i + 1]
-        array[i + 1] = stored
-        swapped = true # Ensures another loop will happen
-      end
+    (n - 1).times do |i|
+      next unless array[i] > array[i + 1]
+
+      stored = array[i]
+      array[i] = array[i + 1]
+      array[i + 1] = stored
+      swapped = true # Ensures another loop will happen
     end
 
     # Break if no swaps were done (fully sorted)
@@ -22,4 +24,4 @@ def bubble_sort(array)
   puts "Bubble sorted array: #{array.inspect}"
 end
 
-bubble_sort([4,3,78,2,0,2])
+bubble_sort([4, 3, 78, 2, 0, 2])
