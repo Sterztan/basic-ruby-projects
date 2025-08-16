@@ -12,3 +12,6 @@ This project implements a Ruby method that determines the best days to buy and s
 
 ## Project 4: Bubble Sort
 Here we have a method that sorts an array through bubble sort, where each element is compared to the one next to it and they are swapped if the one on the left is larger than the one on the right. This continues until the array is eventually sorted in ascending order. In this project, I utilize the loop and break keywords to continously loop through an array until it is fully sorted. I also make use of the #times do loop, iterating through every number in an array to swap them in necessary.
+
+## RuboCop
+I've used the rubocop gem on this project, helping me to better format my Ruby code and make it more consistent with conventional Ruby style. This helps my code become more readable and maintainable for future use or code reviews.
